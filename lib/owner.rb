@@ -21,11 +21,11 @@ class Owner
   end
   
   def self.count
-    @@count 
+    @@all.length
   end
   
   def self.reset_all
-    @@count = 0
+    @@all.clear
   end
   
   def cats
