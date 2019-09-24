@@ -13,6 +13,8 @@ class Cat
     def mood
       @mood 
     end
+    
+    def self.all
   
 
 
