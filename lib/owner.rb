@@ -37,7 +37,7 @@ class Owner
   end
   
   def buy_cat
-    Ca
+    Cat.new(name,self)
   end
 
 
