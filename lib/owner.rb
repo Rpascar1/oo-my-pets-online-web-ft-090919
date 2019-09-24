@@ -28,7 +28,10 @@ class Owner
     @@count = 0
   end
   
-
+  def cats
+    Cats.self.all.each do |mood,name,owner|
+      owner.select{|owner| == owner} 
+    
     
   
   
