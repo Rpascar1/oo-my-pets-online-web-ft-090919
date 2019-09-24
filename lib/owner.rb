@@ -59,7 +59,9 @@ class Owner
   end
 end
     
-    
+  def
+    p owners_pets = dogs + cats
+  end
     
     
     
