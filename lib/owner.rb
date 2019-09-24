@@ -57,11 +57,13 @@ class Owner
     owners_pets.each {|pet| pet.mood = "nervous"}
     owners_pets.each {|pet| pet.owner = nil}
   end
-end
+
     
   def list_pets
     p owners_pets = dogs + cats
   end
+  
+end
     
     
     
