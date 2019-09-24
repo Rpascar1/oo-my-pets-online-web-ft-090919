@@ -19,8 +19,11 @@ class Dog
     def self.all
       @@all
     end
+    
+    def dogs
+    Dogs.all.select{|dog|dog.owner==self}
+    
   
-
 end
 
 
