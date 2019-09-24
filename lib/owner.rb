@@ -1,3 +1,4 @@
+require'pry'
 class Owner
   attr_reader :name, :species
 
@@ -27,8 +28,7 @@ class Owner
     @@count = 0
   end
   
-  def cats
-    Cat.all.each do || 
+
     
   
   
