@@ -22,7 +22,7 @@ class Dog
     
     def dogs
     Dogs.all.select{|dog|dog.owner==self}
-    
+  end
   
 end
 
