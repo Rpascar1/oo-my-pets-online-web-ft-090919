@@ -60,6 +60,7 @@ class Owner
 
     
   def list_pets
+    puts "I have #{dogs.length} dog(s) , an #{cats.length} cat(s) "
     p owners_pets = dogs + cats
   end
   
