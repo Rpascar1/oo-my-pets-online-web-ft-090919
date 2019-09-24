@@ -51,7 +51,10 @@ class Owner
   def feed_cats
     cats.each {|cat|cat.mood = "happy"}
   end
-    
+  
+  def sell_pets
+    dogs.each && cats.each {|animal| animal.delete}
+  end
 end
     
     
