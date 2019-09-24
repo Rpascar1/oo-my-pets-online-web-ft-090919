@@ -28,7 +28,7 @@ class Owner
     @@count = 0
   end
   
-
+binding.pry
     
   
   
