@@ -8,7 +8,7 @@ class Owner
   end
 
   def say_species
-    p @species
+    puts "I am a #{@species}." 
   end
   
 end
