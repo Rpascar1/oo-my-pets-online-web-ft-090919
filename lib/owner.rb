@@ -59,7 +59,7 @@ class Owner
   end
 end
     
-  def
+  def list_pets
     p owners_pets = dogs + cats
   end
     
