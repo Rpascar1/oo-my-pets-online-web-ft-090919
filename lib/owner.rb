@@ -46,5 +46,10 @@ class Owner
 end
 
   def walk_dogs
-    Dog.all.mood = "Happy"
+    Dog.all.each do |mood|
+      if mood == "nervous"
+        mood = happy
+      end
+    end
+    
   end
