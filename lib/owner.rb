@@ -30,7 +30,7 @@ class Owner
   
   def cats
     Cats.self.all.each do |mood,name,owner|
-      owner.select{|owner| == owner} 
+      owner.select{|owner| owner == owner} 
    end    
       
 
